@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes, useLocation, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import {
   MyRoom,
   NotFound,
