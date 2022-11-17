@@ -1,11 +1,12 @@
 import React from "react";
-import Button from "../components/atoms/Button";
+import BodyTemp from "../components/templates/BodyTemp";
+import LoginInputOrg from "../components/organisms/login/LoginInputOrg";
 
 const Login = () => {
   return (
-    <Button type={"button"} uiType={"button"}>
-      테스트버튼
-    </Button>
+    <BodyTemp>
+      <LoginInputOrg />
+    </BodyTemp>
   );
 };
 

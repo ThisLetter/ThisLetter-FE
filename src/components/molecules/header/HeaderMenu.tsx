@@ -1,6 +1,6 @@
 import React, { Dispatch, SetStateAction } from "react";
-import { menu } from "../../utills/menu";
-import Button from "../atoms/Button";
+import { menu } from "../../../utills/menu";
+import Button from "../../atoms/Button";
 import { useNavigate } from "react-router-dom";
 
 interface Props {

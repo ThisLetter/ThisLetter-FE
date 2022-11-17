@@ -4,10 +4,18 @@ interface Props {
   type: string;
   id: string;
   placeholder: string;
+  classNames: string;
 }
 
-const Input = ({ type, id, placeholder = "" }: Props) => {
-  return <input id={id} type={type} placeholder={placeholder} />;
+const Input = ({ type, id, placeholder = "", classNames }: Props) => {
+  return (
+    <input
+      className={"border" + " " + classNames}
+      id={id}
+      type={type}
+      placeholder={placeholder}
+    />
+  );
 };
 
 export default Input;

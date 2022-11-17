@@ -1,6 +1,6 @@
 import React, { Dispatch, SetStateAction } from "react";
-import Button from "../atoms/Button";
-import HeaderText from "../atoms/HeaderText";
+import Button from "../../atoms/Button";
+import HeaderText from "../../atoms/HeaderText";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { useLocation, useNavigate } from "react-router-dom";
 

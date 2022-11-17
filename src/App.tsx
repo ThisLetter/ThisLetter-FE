@@ -1,5 +1,5 @@
 import React from "react";
-import Router from "./shared/Router";
+import Router from "./route/Router";
 import HeaderTemp from "./components/templates/HeaderTemp";
 import FooterTemp from "./components/templates/FooterTemp";
 import BodyTemp from "./components/templates/BodyTemp";

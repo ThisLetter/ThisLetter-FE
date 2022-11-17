@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-import HeaderBar from "../molecules/HeaderBar";
-import HeaderMenu from "../molecules/HeaderMenu";
+import HeaderBar from "../../molecules/header/HeaderBar";
+import HeaderMenu from "../../molecules/header/HeaderMenu";
 
 const HeaderOrg = () => {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderOrg from "../organisms/HeaderOrg";
+import HeaderOrg from "../organisms/header/HeaderOrg";
 
 const HeaderTemp = () => {
   return (
