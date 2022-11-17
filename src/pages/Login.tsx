@@ -1,7 +1,12 @@
-  import React from "react";
+import React from "react";
+import Button from "../components/atoms/Button";
 
-  const Login = () => {
-    return <div><input type="text"/></div>;
-  };
+const Login = () => {
+  return (
+    <Button type={"button"} uiType={"button"}>
+      테스트버튼
+    </Button>
+  );
+};
 
-  export default Login;
+export default Login;
