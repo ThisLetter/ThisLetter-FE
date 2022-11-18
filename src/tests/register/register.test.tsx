@@ -1,16 +1,16 @@
 import { render } from "@testing-library/react";
-import LoginInputCheck from "../../components/molecules/login/LoginInputCheck";
+import RegisterInputCheck from "../../components/molecules/register/RegisterInputCheck";
 
-describe("<LoginInputOrg />", () => {
+describe("<RegisterInputOrg />", () => {
   it("matches snapshot", () => {
     const utils = render(
-      <LoginInputCheck placeholder={"test"} id={"test"} onClick={() => {}} />
+      <RegisterInputCheck placeholder={"test"} id={"test"} onClick={() => {}} />
     );
     expect(utils.container).toMatchSnapshot();
   });
   it("shows the props correctly", () => {
     const utils = render(
-      <LoginInputCheck placeholder={"test"} id={"test"} onClick={() => {}} />
+      <RegisterInputCheck placeholder={"test"} id={"test"} onClick={() => {}} />
     );
     utils.getByPlaceholderText("test");
   });

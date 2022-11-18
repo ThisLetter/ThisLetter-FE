@@ -9,7 +9,7 @@ interface Props {
 
 const PublicRoute = ({ children }: Props) => {
   const [isLogin] = useRecoilState(userAtom);
-  return isLogin ? <Navigate to={"/login"} /> : children;
+  return isLogin ? <Navigate to={"/register"} /> : children;
 };
 
 export default PublicRoute;

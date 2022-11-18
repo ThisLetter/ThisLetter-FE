@@ -10,7 +10,7 @@ interface Props {
 const Input = ({ type, id, placeholder = "", classNames }: Props) => {
   return (
     <input
-      className={"border" + " " + classNames}
+      className={"border rounded" + " " + classNames}
       id={id}
       type={type}
       placeholder={placeholder}

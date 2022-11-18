@@ -8,7 +8,7 @@ interface Props {
   onClick: () => any | undefined;
 }
 
-const LoginInputCheck = ({ placeholder, id, onClick }: Props) => {
+const RegisterInputCheck = ({ placeholder, id, onClick }: Props) => {
   return (
     <div className={"flex mb-4"}>
       <Input
@@ -24,4 +24,4 @@ const LoginInputCheck = ({ placeholder, id, onClick }: Props) => {
   );
 };
 
-export default LoginInputCheck;
+export default RegisterInputCheck;

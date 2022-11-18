@@ -1,12 +1,8 @@
 import React from "react";
-import LoginInputOrg from "../organisms/login/LoginInputOrg";
+import LoginOrg from "../organisms/login/LoginOrg";
 
 const LoginTemp = () => {
-  return (
-    <div>
-      <LoginInputOrg />
-    </div>
-  );
+  return <LoginOrg />;
 };
 
 export default LoginTemp;

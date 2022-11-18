@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<LoginInputOrg /> matches snapshot 1`] = `
+exports[`<RegisterInputOrg /> matches snapshot 1`] = `
 <div>
   <div
     class="flex mb-4"
   >
     <input
-      class="border flex-1 p-2 mr-4"
+      class="border rounded flex-1 p-2 mr-4"
       id="test"
       placeholder="test"
       type="text"
