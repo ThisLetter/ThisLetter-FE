@@ -1,11 +1,11 @@
 import React from "react";
 import BodyTemp from "../components/templates/BodyTemp";
-import LoginInputOrg from "../components/organisms/login/LoginInputOrg";
+import LoginTemp from "../components/templates/LoginTemp";
 
 const Login = () => {
   return (
     <BodyTemp>
-      <LoginInputOrg />
+      <LoginTemp />
     </BodyTemp>
   );
 };

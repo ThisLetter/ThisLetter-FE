@@ -5,12 +5,12 @@ import Button from "../../atoms/Button";
 interface Props {
   placeholder: string;
   id: string;
-  onClick: () => void;
+  onClick: () => any | undefined;
 }
 
 const LoginInputCheck = ({ placeholder, id, onClick }: Props) => {
   return (
-    <div className={"flex mb-4 mt-10"}>
+    <div className={"flex mb-4"}>
       <Input
         classNames={"flex-1 p-2 mr-4"}
         type={"text"}
