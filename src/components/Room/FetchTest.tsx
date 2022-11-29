@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useFetch } from '../../hooks/useFetch';
 
 const baseUrl = "https://jsonplaceholder.typicode.com"
+interface DataProps {
+  name:string, id:number, title:string
+}
 
 const FetchTest = () => {
 
@@ -11,11 +14,11 @@ const FetchTest = () => {
   return (
     <div>
       <h1>useFetch</h1>
-      {userData.map(({name, id, title}:{name:string, id:number, title:string},i)=> (
+      {userData.map(({name, id, title}:DataProps)=> (
         <div key={id}>{name || title}</div>
       ))}
       <h1>Post</h1>
-      {postData.map(({name, id, title}:{name:string, id:number, title:string},i)=> (
+      {postData.map(({name, id, title}:DataProps)=> (
         <div key={id}>{name || title}</div>
       ))}
     </div>
